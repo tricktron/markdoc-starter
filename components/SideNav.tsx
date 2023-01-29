@@ -7,6 +7,10 @@ const items = [
     title: 'Get started',
     links: [{href: '/docs', children: 'Overview'}],
   },
+  {
+    title: 'Another Page',
+    links: [{href: '/docs/another-page', children: 'Another child'}],
+  }
 ];
 
 export function SideNav() {
